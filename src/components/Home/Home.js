@@ -4,6 +4,8 @@ import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
 import Pricing from '../Pricing/Pricing'
 import Testimonials from '../Testimonials/Testimonials'
+import Faq from '../Faq/Faq'
+import Contact from '../Contact/Contact'
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
        <Hero/>
        <Pricing/>
        <Testimonials/>
+       <Faq/>
+       <Contact/>
     </div>
   )
 }
